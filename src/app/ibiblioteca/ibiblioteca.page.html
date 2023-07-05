@@ -1,0 +1,15 @@
+<app-header title="iBiblioteca"></app-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let item of arrayMangas">
+      <ion-thumbnail slot="start">
+        <img alt="" src="{{item.imagen}}"/>
+      </ion-thumbnail>
+      <ion-label>
+        <h3>{{item.titulo}}</h3>
+        <p>{{item.descripcion}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

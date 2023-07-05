@@ -1,0 +1,25 @@
+<app-header title="Autor"></app-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">autor</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Informacion</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+       Aplicacion desarrollada por Martina Fuentes. A continuacion puede consultar mas informacion sobre el autor.
+      </ion-card-content>
+      <ion-button [routerLink]="['/curriculum']" color="dark" expand="full">Curriculum vitae</ion-button>
+      <ion-button color="dark" expand="full" href="mailto:martufuentes1@gmail.com">Correo</ion-button>
+      <ion-button color="dark" expand="full" href="https://twitter.com/IbaiLlanos">Twitter</ion-button>
+      <ion-button color="dark" expand="full" href="tel:2996102457">Telefono</ion-button>
+      
+    </ion-card>
+  </div>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "iBiblioteca-mar",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
